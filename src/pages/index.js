@@ -10,7 +10,7 @@ export default ({ data }) => {
     <Layout>
       <Seo />
       <h1 className="main-body-title">
-        The story of a couple who had very little, who built a family, and designed their own family culture.
+      Stories on overcoming failure, internal growth, and creating a unique family culture.
       </h1>
       <h4 className={styles.feature}>
         Updates coming soon

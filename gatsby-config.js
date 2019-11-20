@@ -10,7 +10,7 @@ module.exports = {
     title: `Raising Anomalies`,
     titleTemplate: `%s | Designing your own family culture`,
     siteUrl: `https://bonneville.netlify.com`,
-    description: `Designing your own family culture`,
+    description: `Stories on overcoming failure, internal growth, and creating a unique family culture`,
     author: `Randy Tolentino`,
     twitterUsername: `@makertolentino`,
     twitterURL: `https://twitter.com/`,
