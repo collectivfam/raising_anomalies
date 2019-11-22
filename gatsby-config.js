@@ -28,7 +28,7 @@ module.exports = {
         name: `Bonneville - Gatsby Starter Theme`,
         short_name: `Bonneville`,
         start_url: `/`,
-        background_color: `#0027EC`,
+        background_color: `#FFFAE1`,
         theme_color: `#0027EC`,
         display: `standalone`,
         icon: `static/favicon.ico`,

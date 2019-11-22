@@ -3,18 +3,28 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import styles from "../scss/blog.module.scss"
 import Seo from "../components/SEO"
+import circlesImage from "../content/images/home/circles.svg";
 
 export default ({ data }) => {
 
   return (
     <Layout>
       <Seo />
-      <h1 className="main-body-title">
-      Stories on overcoming failure, internal growth, and creating a unique family culture.
-      </h1>
-      <h4 className={styles.feature}>
-        Updates coming soon
-      </h4>
+      <section className="hero">
+        <div className="content">
+          <h1 className="main-body-title">
+          Stories on overcoming failure, internal growth, and creating a unique family culture.
+          </h1>
+        </div>
+        <img src={circlesImage} className="hero-img"/>
+      </section>
+      
+      <section className="updates">
+        <h4 className={styles.feature}>Updates</h4>
+      </section>
+      
+      
+      
       {/* {data.allMarkdownRemark.edges.map(({ node }) => (
         <article className={styles.item}>
           <div className={styles.title}>

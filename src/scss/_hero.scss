@@ -1,0 +1,14 @@
+.hero {
+  background: $primaryBackgroundColor;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  .content {
+  }
+  
+  &-img {
+    max-width: 20rem;
+    align-self: flex-end;
+  }
+}

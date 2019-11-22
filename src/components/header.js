@@ -64,7 +64,6 @@ export default ({ children }) => {
 
     .header-cont {
       z-index: 3;
-      position: fixed;
       left: 0;
       right: 0;
       display: flex;
@@ -151,7 +150,7 @@ export default ({ children }) => {
           <nav className="nav-cont">
             <ul>
               <ListLink to="/">Home</ListLink>
-              <ListLink to="/profile/">Profile</ListLink>
+              {/* <ListLink to="/profile/">Profile</ListLink> */}
               <ListLink to="/blog/">Blog</ListLink>
               <ListLink to="/contact/">Contact</ListLink>
             </ul>
