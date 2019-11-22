@@ -19,6 +19,10 @@ body {
   &-title {
     max-width: 36rem;
     margin: 0;
+    
+    @media(max-width: 768px) {
+      max-width: 32rem;
+    }
   }
 }
 

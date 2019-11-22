@@ -4,11 +4,30 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+
+  @media(max-width: 768px) {
+    flex-direction: column;   
+    min-height: 30rem; 
+    position: relative;
+  }
+  
   .content {
+    padding-right: 2rem;
   }
   
   &-img {
-    max-width: 20rem;
+    max-width: 32%;
     align-self: flex-end;
+    
+    @media(max-width: 768px) {
+      position: absolute;
+      max-width: 20rem;
+      z-index: 0;
+      opacity: .5;
+      top: 10rem;
+      left: 2rem;
+    }
   }
+  
+  
 }

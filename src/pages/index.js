@@ -21,6 +21,7 @@ export default ({ data }) => {
       
       <section className="updates">
         <h4 className={styles.feature}>Updates</h4>
+        <p>Coming soon</p>
       </section>
       
       
