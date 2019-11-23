@@ -16,16 +16,15 @@
   }
   
   &-img {
-    max-width: 32%;
+    max-width: 32rem;
     align-self: flex-end;
     
     @media(max-width: 768px) {
-      position: absolute;
-      max-width: 20rem;
-      z-index: 0;
-      opacity: .5;
-      top: 10rem;
-      left: 2rem;
+      position: relative;
+      align-self: flex-start;
+      top: 0;
+      left: 0;
+      max-width: 100%;
     }
   }
   

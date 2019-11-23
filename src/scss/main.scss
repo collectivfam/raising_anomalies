@@ -17,7 +17,14 @@ body {
 
 .main-body {
   &-title {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  &-subtitle {
     max-width: 36rem;
+    font-size: 2rem;
+    font-weight: normal;
     margin: 0;
     
     @media(max-width: 768px) {
@@ -37,9 +44,8 @@ body {
     position: relative;
     -webkit-transition: $transMed;
     transition: $transMed;
-    // color: $black;
     color: white;
-    line-height: 1.75rem;
+    font-size: 1rem;
 
 
     &:hover {

@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import styled from "styled-components"
 import { useStaticQuery, Link, graphql } from "gatsby"
 import "../scss/main.scss"
+import logo from '../content/images/ra_logo.svg';
 
 export default ({ children }) => {
   const [menuStatus, menuChange] = useState(false)
@@ -57,35 +58,28 @@ export default ({ children }) => {
       .header-cont {
         button {
           z-index: 3;
-          font-size: 1.15rem;
+          font-size: 1rem;
+          color: #fff;
         }
       }
     }
+    
+    .header-logo {
+      max-width: 2rem;
+    }
 
     .header-cont {
-      z-index: 3;
-      left: 0;
-      right: 0;
       display: flex;
+      align-items: center;
       justify-content: space-between;
-      grid-template-columns: 200px auto;
-      grid-gap: 1rem;
-      padding: 1rem 2rem;
+      padding: .5rem 2rem;
       background-color: #171717;
 
       .logo-cont {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        z-index: 3;
+        display: block;
 
         a {
-          display: inline-block;
-          line-height: 2.5rem;
-          color: #fff;
-          text-decoration: none;
-          transition: var(--transMed);
-          position: relative;
+          display: block;
 
           &:hover {
             // color: var(--primaryColor);
@@ -141,7 +135,7 @@ export default ({ children }) => {
         <header className="header-cont">
           <div className="logo-cont">
             <Link to="/">
-              <h2>{data.site.siteMetadata.title}</h2>
+              <img className="header-logo" src={logo}/>
             </Link>
           </div>
           <button className="btn" onClick={() => menuChange(!menuStatus)}>

@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import styles from "../scss/blog.module.scss"
 import Seo from "../components/SEO"
-import circlesImage from "../content/images/home/circles.svg";
+import bookImg from "../content/images/home/raising_anomalies_book.png";
 
 export default ({ data }) => {
 
@@ -12,11 +12,12 @@ export default ({ data }) => {
       <Seo />
       <section className="hero">
         <div className="content">
-          <h1 className="main-body-title">
+          <h1 className="main-body-title">raising anomalies</h1>
+          <h2 className="main-body-subtitle">
           Stories on overcoming failure, internal growth, and creating a unique family culture.
-          </h1>
+          </h2>
         </div>
-        <img src={circlesImage} className="hero-img"/>
+        <img src={bookImg} className="hero-img"/>
       </section>
       
       <section className="updates">
