@@ -13,6 +13,18 @@
     padding-top: 0;
   }
   
+  &-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    
+    & img {
+      width: 100%;
+    }
+  }
+  
   .content {
     padding-right: 2rem;
   }
@@ -37,6 +49,24 @@
       margin: 0;
       width: 80%;
       padding-top: 1rem;
+    }
+  }
+  
+  &-cta {
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: none;
+    background: #f84040;
+    color: #fff;
+    margin: 1rem 0;
+    font-size: 1rem;
+    border-radius: 1px;
+    margin: 3rem 0 2rem 0;
+    display: inline-block;
+    text-decoration: none;
+    
+    &:hover {
+      background: #e23a3a;
     }
   }
   

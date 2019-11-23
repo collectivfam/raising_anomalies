@@ -115,8 +115,8 @@ export default ({ children }) => {
 
           li {
             padding-left: 2rem;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
+            margin-top: .5rem;
+            margin-bottom: .5rem;
             font-size: 1.15rem;
           }
         }
