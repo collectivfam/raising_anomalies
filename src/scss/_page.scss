@@ -1,9 +1,12 @@
 .page {
   &-standard {
-    padding: 4rem 2rem;
+    @include wrapper();
   }
   
   &-standard h1 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    text-transform: lowercase;
     margin: 0;
   }
 }

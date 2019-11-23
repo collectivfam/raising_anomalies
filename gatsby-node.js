@@ -18,7 +18,7 @@ exports.createPages = async ({ actions, graphql }) => {
   // Pages built using templates/page-template.js
   const pageData = [
     {
-      name: "profile",
+      name: "author",
       title:
         "Coming soon",
       content:

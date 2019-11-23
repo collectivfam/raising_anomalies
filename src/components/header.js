@@ -26,6 +26,8 @@ export default ({ children }) => {
   )
 
   const HeaderCont = styled.div`
+    background: #171717;
+    
     @media (max-width: 767px) {
       .nav-cont {
         position: fixed;
@@ -74,6 +76,9 @@ export default ({ children }) => {
       justify-content: space-between;
       padding: .5rem 2rem;
       background-color: #171717;
+      max-width: 1080px;
+      margin: 0 auto;
+      
 
       .logo-cont {
         display: block;
@@ -130,7 +135,7 @@ export default ({ children }) => {
   `
 
   return (
-    <HeaderCont>
+    <HeaderCont className="header">
       <div className={`${menuStatus ? "menu-open" : "menu-closed"}`}>
         <header className="header-cont">
           <div className="logo-cont">
@@ -143,8 +148,7 @@ export default ({ children }) => {
           </button>
           <nav className="nav-cont">
             <ul>
-              <ListLink to="/">Home</ListLink>
-              {/* <ListLink to="/profile/">Profile</ListLink> */}
+              <ListLink to="/author">Author</ListLink>
               <ListLink to="/blog/">Blog</ListLink>
               <ListLink to="/contact/">Contact</ListLink>
             </ul>

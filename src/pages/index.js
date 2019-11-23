@@ -12,12 +12,14 @@ export default ({ data }) => {
       <Seo />
       <section className="hero">
         <div className="content">
-          <h1 className="main-body-title">raising anomalies</h1>
+          <h1 className="main-body-title">raising<span className="main-body-title-accent">anomalies</span></h1>
           <h2 className="main-body-subtitle">
           Stories on overcoming failure, internal growth, and creating a unique family culture.
           </h2>
         </div>
-        <img src={bookImg} className="hero-img"/>
+        <div className="hero-img-container">
+          <img src={bookImg} className="hero-img"/>
+        </div>
       </section>
       
       <section className="updates">

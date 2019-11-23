@@ -25,6 +25,9 @@ export default ({ children }) => {
   )
 
   const FooterCont = styled.div`
+    max-width: 1080px;
+    margin: 0 auto;
+    
     footer {
       padding: 1rem 2rem;
       display: flex;
