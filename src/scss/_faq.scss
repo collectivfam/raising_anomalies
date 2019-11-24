@@ -1,0 +1,23 @@
+.faq {
+  &-list {
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  &-list-item {
+    list-style-type: none;
+    margin-bottom: 2rem;
+    
+    &-q {
+      font-weight: 700;
+      padding-bottom: .5rem;
+    }
+    
+    &-a {
+      display: block;
+    }
+    
+  }
+  
+}

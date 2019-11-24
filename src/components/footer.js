@@ -91,7 +91,7 @@ export default ({ children }) => {
       <footer>
         <ul className="nav-cont">
           <li>&copy; {showYear}</li>
-          <li>{data.site.siteMetadata.author}</li>
+          <li>raising anomalies</li>
           <ListLink to="/privacy/">Privacy</ListLink>
           <ListLink to="/cookies/">Cookies</ListLink>
         </ul>

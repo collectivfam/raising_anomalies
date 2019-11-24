@@ -1,7 +1,6 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import styles from "../scss/blog.module.scss"
 import Seo from "../components/SEO"
 import bookImg from "../content/images/home/raising_anomalies_book.png";
 import backgroundImg from "../content/images/circles-bg.png";
@@ -10,7 +9,7 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      <Seo />
+    <Seo />
       <section className="hero">
         <div className="content">
           <h1 className="main-body-title">raising<span className="main-body-title-accent">anomalies</span></h1>
@@ -26,13 +25,6 @@ export default ({ data }) => {
           <img src={backgroundImg}/>
         </div>
       </section>
-      
-      <section className="updates">
-        <h4 className={styles.feature}>Updates</h4>
-        <p>Coming soon</p>
-      </section>
-      
-      
       
       {/* {data.allMarkdownRemark.edges.map(({ node }) => (
         <article className={styles.item}>

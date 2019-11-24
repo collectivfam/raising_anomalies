@@ -23,7 +23,7 @@ export default class BlogList extends React.Component {
           description="Recent posts from the Bonneville starter theme"
         />
         <div className="page-standard">
-          <h1>Coming soon</h1>
+          <h1>blog</h1>
           {/* {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.frontmatter.path
             return (

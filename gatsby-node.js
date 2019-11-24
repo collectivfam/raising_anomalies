@@ -32,6 +32,13 @@ exports.createPages = async ({ actions, graphql }) => {
         "",
     },
     {
+      name: "updates",
+      title:
+        "updates",
+      content:
+        "",
+    },    
+    {
       name: "privacy",
       title:
         "Coming soon",
@@ -52,9 +59,28 @@ exports.createPages = async ({ actions, graphql }) => {
     },
   ]
   pageData.forEach(page => {
+    let template;
+    
+    switch(page.name) {
+      case "author":
+        template = "author.js"
+        break;
+      case "blog":
+        template = "blog-list-template.js"
+        break;
+      case "updates":
+          template = "updates.js"
+          break;        
+        case "contact":
+          template = "contact.js"
+          break;        
+      default:
+        template = "page-template.js"
+    }
+    
     createPage({
       path: `/${page.name}`,
-      component: require.resolve(`./src/templates/page-template.js`),
+      component: require.resolve(`./src/templates/${template}`),
       context: { page },
     })
   })

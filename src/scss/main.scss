@@ -1,4 +1,4 @@
-@import "./variables", "./content", "./hero", "./page", "./updates";
+@import "./variables", "./content", "./hero", "./page", "./updates", "./faq";
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,600&display=swap');
 
 :root {
@@ -15,7 +15,7 @@
 body {
   font-family: $sansSerif;
   color: $black;
-  line-height: 1.2;
+  line-height: 1.44;
   font-size: 1rem;
   margin: 0;
 }
@@ -26,7 +26,8 @@ body {
     margin-bottom: 1.5rem;
     font-family: 'Comfortaa', cursive;
     font-weight: 300;
-    margin-top: 1rem;
+    margin-top: 0;
+    line-height: 1.2;
     
     @media(max-width: 480px) {
       font-size: 3rem;
@@ -46,6 +47,7 @@ body {
     font-size: 2rem;
     font-weight: normal;
     margin: 0;
+    line-height: 1.2;
     
     @media(max-width: 768px) {
       max-width: 32rem;

@@ -67,7 +67,7 @@ export default ({ children }) => {
     }
     
     .header-logo {
-      max-width: 2rem;
+      max-width: 3.5rem;
     }
 
     .header-cont {
@@ -149,6 +149,7 @@ export default ({ children }) => {
           <nav className="nav-cont">
             <ul>
               <ListLink to="/author">Author</ListLink>
+              <ListLink to="/updates/">Updates</ListLink>
               <ListLink to="/blog/">Blog</ListLink>
               <ListLink to="/contact/">Contact</ListLink>
             </ul>
