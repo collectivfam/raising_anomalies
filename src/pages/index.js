@@ -16,7 +16,7 @@ export default ({ data }) => {
           <h2 className="main-body-subtitle">
           Stories on overcoming failure, internal growth, and creating a unique family culture.
           </h2>
-            <a href="" className="hero-cta">View updates</a>
+            <a href="/updates" className="hero-cta">View updates</a>
         </div>
         <div className="hero-img-container">
           {/* <img src={bookImg} className="hero-img"/> */}
