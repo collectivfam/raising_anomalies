@@ -10,8 +10,9 @@ export default ({ pageContext: { page } }) => (
       <h1>author</h1>
       <section className="page-section">
         <ul className="faq-list">
-          {faqData.map(item => (
-            <li className="faq-list-item">
+          {faqData.map((item, i) => (
+            <li className="faq-list-item" key={i}
+            >
               <span className="faq-list-item-q">{item.question}</span>
               <span className="faq-list-item-a" dangerouslySetInnerHTML={{ __html: item.answer }} />
             </li>  
