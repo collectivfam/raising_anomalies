@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: `Raising Anomalies`,
     titleTemplate: `%s | Designing your own family culture`,
-    siteUrl: `https://bonneville.netlify.com`,
+    siteUrl: `https://raisinganomalies.com`,
     description: `Stories on overcoming failure, internal growth, and creating a unique family culture`,
     author: `Randy Tolentino`,
     twitterUsername: `@makertolentino`,
@@ -76,5 +76,11 @@ module.exports = {
         path: `${__dirname}/src/content/images`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-153655592-1",
+      },
+    }
   ],
 }
