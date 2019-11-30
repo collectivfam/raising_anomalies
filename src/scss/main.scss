@@ -21,6 +21,8 @@ body {
 }
 
 .main-body {
+  overflow: hidden;
+  min-height: 87vh;
   &-title {
     font-size: 4rem;
     margin-bottom: 1.5rem;
@@ -73,6 +75,7 @@ body {
     transition: $transMed;
     color: white;
     font-size: 1rem;
+    text-transform: lowercase;
 
 
     &:hover {
@@ -95,27 +98,28 @@ body {
   display: inline-block;
   line-height: 30px;
   position: relative;
+  text-transform: lowercase;
 
-  &::after {
-    content: "";
-    display: block;
-    height: 3px;
-    background-color: #fff;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    -webkit-transition: $transMed;
-    transition: $transMed;
-  }
+  // &::after {
+  //   content: "";
+  //   display: block;
+  //   height: 3px;
+  //   background-color: #fff;
+  //   position: absolute;
+  //   width: 100%;
+  //   left: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   -webkit-transition: $transMed;
+  //   transition: $transMed;
+  // }
 
   &:hover {
     cursor: pointer;
 
-    &::after {
-      width: 0;
-      left: 100%;
-    }
+    // &::after {
+    //   width: 0;
+    //   left: 100%;
+    // }
   }
 }

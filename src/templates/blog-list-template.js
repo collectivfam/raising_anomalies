@@ -24,6 +24,7 @@ export default class BlogList extends React.Component {
         />
         <div className="page-standard">
           <h1>blog</h1>
+          <p>coming soon...</p>
           {/* {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.frontmatter.path
             return (

@@ -19,7 +19,7 @@ export default ({ data }) => {
             <a href="" className="hero-cta">View updates</a>
         </div>
         <div className="hero-img-container">
-          <img src={bookImg} className="hero-img"/>
+          {/* <img src={bookImg} className="hero-img"/> */}
         </div>
         <div className="hero-bg">
           <img src={backgroundImg}/>

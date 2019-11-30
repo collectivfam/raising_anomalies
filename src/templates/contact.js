@@ -7,6 +7,7 @@ export default ({ pageContext: { page } }) => (
     <Seo title={page.name} description={page.title} />
     <div className="page-standard">
       <h1>contact</h1>
+      <p>coming soon...</p>
     </div>
   </Layout>
 )

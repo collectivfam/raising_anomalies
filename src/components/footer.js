@@ -25,10 +25,12 @@ export default ({ children }) => {
   )
 
   const FooterCont = styled.div`
-    max-width: 1080px;
-    margin: 0 auto;
+    background: #eaeaea;
+    font-size: .75rem;
     
     footer {
+      max-width: 1080px;
+      margin: 0 auto;
       padding: 1rem 2rem;
       display: flex;
       flex-direction: column;
@@ -56,8 +58,13 @@ export default ({ children }) => {
             padding-left: 0.5rem;
           }
           
+          &:last-child::after {
+            content: "";
+          }
+          
           a {
             color: #323232;
+            font-size: .75rem;
           }
         }
       }

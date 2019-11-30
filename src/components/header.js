@@ -36,15 +36,17 @@ export default ({ children }) => {
         width: 100%;
         bottom: 0;
         right: 0;
-        background-color: #fff;
+        background-color: #171717;
         z-index: 2;
         transform: translateX(100%);
         transition: var(--transMed);
+        padding: 4rem 2rem;
 
         ul {
           display: flex;
+          align-items: center;
           flex-direction: column;
-          justify-content: center;
+          justify-content: flex-start;
         }
       }
 
@@ -106,6 +108,13 @@ export default ({ children }) => {
           display: none;
         }
       }
+      
+      @media (max-width: 768px) {
+        .nav-cont ul li a {
+          font-size: 2rem;
+          font-weight: 300;
+        }
+      }
       .nav-cont {
         ul {
           height: 100%;
@@ -114,7 +123,7 @@ export default ({ children }) => {
           display: flex;
 
           li {
-            padding-left: 2rem;
+            padding-left: 0;
             margin-top: .5rem;
             margin-bottom: .5rem;
             font-size: 1.15rem;
