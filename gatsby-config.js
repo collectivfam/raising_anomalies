@@ -39,7 +39,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "ENTER YOUR GA TRACKING ID HERE",
+        trackingId: "UA-153655592-1",
         head: false,
       },
     },
@@ -76,11 +76,5 @@ module.exports = {
         path: `${__dirname}/src/content/images`,
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-153655592-1",
-      },
-    }
   ],
 }
