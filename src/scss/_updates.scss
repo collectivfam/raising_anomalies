@@ -8,3 +8,33 @@
     font-size: 2.4rem;
   }
 }
+
+.update {
+  padding: 1rem 0 2rem 0;
+  &:not(:last-child) {
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  &-date {
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+  
+  &-rating {
+    color: #51e9c4;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: 4px;
+    vertical-align: sub;
+    padding-left: 4px;
+  }
+  
+  &-notes {
+    list-style-type: disc;
+    margin: .5rem 0;
+  }
+  
+  &-notes-item {
+  }
+}
