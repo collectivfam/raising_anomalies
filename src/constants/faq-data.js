@@ -40,19 +40,23 @@ export default [
     answer: "First off, I spent about a month researching how other authors approached their own works. I have people in my network who were self-published authors, or, in the process of writing their first book. I picked their brains and tried to understand their journeys. I also began to <em>look at</em> books – what I mean by that is, I didn't just read for content, but I began to study other author's styles, organizations, outlines, flow, and so forth.<br/><br/>I brainstormed with my wife pretty much every night; every conversation was productive. I also established an accountability partner very early on. These initial activities helped me to prepare for the journey.<br/><br/>After that, it was just a matter of creating time and tackling one story at a time.",
   },
   {
+    question: "What about the actual writing process? <laughs>",
+    answer: "Haha oh yeah! I do most of my writing in early mornings, between the hours of around 1:00 AM and 7:00 AM. This schedule gives me enough time to dive right in, make some edits on the content I last worked on, and get into a flow state."
+  },
+  {
     question: "Are there any specific tools that you use?",
-    answer: "I track my work in a what I called a 'mini log', which was just a small bulleted list that I tracked in a GitHub wiki. I sent my accountability partner a summary of that log, every Friday.<br/><br/>All my drafts were created and kept in Google Docs, which allowed me to compose, edit, and review from anywhere. "
+    answer: "I keep my work in a what I called a 'mini log', which was just a small bulleted list that I tracked in a GitHub wiki. I sent my accountability partner a summary of that log, every Friday.<br/><br/>All my drafts were created and kept in Google Docs, which allowed me to compose, edit, and review from anywhere. GitHub and Google Docs, those are the main tools."
   },
   {
     question: "Why don't you have a larger social media presence?",
-    answer: "Social media networks and platforms scare me. Every day we hear another story about how our data is being used against us, and my fear is that people are just desensitized to what's happening. Other than that, my activity is relatively light on social media just for the simple fact I try to protect my cognitive load – I don't like to think about too much."
+    answer: "Social media networks and platforms scare me. Every day we hear another story about how our data is being used against people, so my fear is that we're becoming desensitized to what's happening. Other than that, my activity is relatively light on social media just for the simple fact I try to protect my cognitive load – I don't like to think about too much."
   },
   {
-    question: "What's next?",
-    answer: "I plan to continue writing – I can't say that I have another book in the works, yet, but I do have an idea of a couple of problem spaces that I'd love to navigate through; how that manifests is yet to be determined.<br/><br/>I'm in heavy exploration mode right now, which is exciting going into 2020. Every day me and my wife discuss and review potential projects, so we'll see what happens."
+    question: "What can your audience expect next from you?",
+    answer: "So I plan to continue writing, although I can't say that I have another book in the works, yet! I do have several ideas of some interesting platforms that I want to pursue, and I also have a couple of problem spaces that I'd love to navigate through. How that all manifests is yet to be determined.<br/><br/>Right now, I'm in heavy exploration mode, which is exciting going into 2020. Every day my wife and I discuss and review potential projects, so we'll see what happens."
   },
   {
-    question: "Fantastic. Any last words for your audience?",
+    question: "That's great to hear. You have any last words for your audience?",
     answer: "God bless y'all, thank you, and always remember to think outside the self."
   },
   {

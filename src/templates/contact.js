@@ -13,7 +13,7 @@ export default ({ pageContext: { page } }) => (
         <hr className="divider"/>
         
         <div className="social">
-          <span className="social-platform"><FaTwitter className="social-platform-icon"/> <a href="https://twitter.com/collectivfam" target="_blank" rel="noopener noreferrer">@collectivfam</a></span>
+          <span className="social-platform"><FaTwitter className="social-platform-icon"/> <a href="https://twitter.com/makertolentino" target="_blank" rel="noopener noreferrer">@makertolentino</a> / <a href="https://twitter.com/collectivfam" target="_blank" rel="noopener noreferrer">@collectivfam</a></span>
           <span className="social-platform"><FaMediumM className="social-platform-icon"/> <a href="https://medium.com/@makertolentino" target="_blank" rel="noopener noreferrer">@makertolentino</a></span>
           <span className="social-platform"><FaEnvelope className="social-platform-icon"/> <a href="mailto:thecollectivelegacy@gmail.com" target="_blank" rel="noopener noreferrer">@thecollectivelegacy</a></span>
           <span className="social-platform"><FaHashtag className="social-platform-icon"/> <a href="https://twitter.com/hashtag/raisinganomalies" target="_blank" rel="noopener noreferrer">#raisinganomalies</a></span>
