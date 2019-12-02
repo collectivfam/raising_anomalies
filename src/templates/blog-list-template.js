@@ -24,7 +24,11 @@ export default class BlogList extends React.Component {
         />
         <div className="page-standard">
           <h1>blog</h1>
-          <p>coming soon...</p>
+          <section className="page-section">
+            <p className="page-intro">A periodic blog is definitely in the works, but apologies for this being empty at the moment. Check back though!</p>  
+            <hr className="divider"/>
+            
+          </section>
           {/* {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.frontmatter.path
             return (

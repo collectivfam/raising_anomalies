@@ -10,6 +10,7 @@ export default ({ pageContext: { page } }) => (
       <h1>contact</h1>
       <section className="page-section">
         <p className="page-intro">In the rare occassion that  supporters need to contact the author, please use the following modes of communication. If you'd like to help spread the word, please use the hashtag <strong>#raisinganomalies</strong>.</p>
+        <hr className="divider"/>
         
         <div className="social">
           <span className="social-platform"><FaTwitter className="social-platform-icon"/> <a href="https://twitter.com/collectivfam" target="_blank">@collectivfam</a></span>

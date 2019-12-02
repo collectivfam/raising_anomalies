@@ -11,6 +11,7 @@ export default ({ pageContext: { page } }) => (
       <h1>updates</h1>
       <section className="page-section">
         <p className="page-intro">The following log captures the daily progress that I've tracked ever since day one of this project. This page gets updated on a weekly basis (I think... well, I guess it depends on if it's a super-demanding week or not).</p>  
+        <hr className="divider"/>
         
         {updatesData.map((item, i) => (
           <div className="update" key={i}>
