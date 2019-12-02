@@ -154,7 +154,15 @@ export default [
 		date: "Friday, November 15, 2019",
 		motivation: "•••••",
 		notes: [
-			"accountability partner established, Shaan Shah",
+			"established an accountability partner established, Shaan Shah",
+			"retro started a progress log to send Shaan weekly (Fridays)"
+		]
+	},
+	{
+		date: "Monday, November 11, 2019",
+		motivation: "•••••",
+		notes: [
+			"I made the decision – I'm going to write a book"
 		]
 	}
 ]
