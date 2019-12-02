@@ -9,6 +9,8 @@ export default ({ pageContext: { page } }) => (
     <div className="page-standard">
       <h1>author</h1>
       <section className="page-section">
+        <p className="page-intro">To find out a little bit about the author of <strong>raising anomalies</strong> and to hear what motivated him to releasing his book, feel free to check out this short Q&A session, conducted by the good people at The Collective Legacy.</p>
+        
         <ul className="faq-list">
           {faqData.map((item, i) => (
             <li className="faq-list-item" key={i}

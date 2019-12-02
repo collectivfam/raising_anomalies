@@ -26,7 +26,7 @@ body {
   &-title {
     font-size: 4rem;
     margin-bottom: 1.5rem;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', sans-serif;
     font-weight: 300;
     margin-top: 0;
     line-height: 1.2;
@@ -122,4 +122,12 @@ body {
     //   left: 100%;
     // }
   }
+}
+
+a {
+  color: #5900ce;
+}
+
+strong {
+  font-weight: 500;
 }

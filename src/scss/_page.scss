@@ -4,7 +4,7 @@
   }
   
   &-standard h1 {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', sans-serif;
     font-weight: 600;
     text-transform: lowercase;
     margin: 0;
@@ -18,5 +18,10 @@
   &-section-title {
     font-size: 2rem;
     font-weight: 400;
+  }
+  
+  &-intro {
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
   }
 }

@@ -12,16 +12,16 @@ export default [
     answer: "Absolutely."
   },
   {
-    question: "So do you write code?",
+    question: "So do you \"write code\" as they say?",
     answer: "What the... yes."
   },
   {
-    question: "Tell us more.",
-    answer: "Well, I built this site."
+    question: "What do you do with that code?",
+    answer: "Build apps, artifacts, side-projects. I mean, I built this site."
   },
   {
-    question: "Did you write these questions too then?",
-    answer: "Yes."
+    question: "Did you write these questions as well?",
+    answer: "Facts."
   },
   {
     question: "How?",
@@ -29,11 +29,11 @@ export default [
   },
   {
     question: "Okay, I believe you.",
-    answer: ""
+    answer: "Thank you, 🙏"
   },
   {
-    question: "So can you explain what inspired this book?",
-    answer: "Sure. It was a few things. First off, I've always been a writer, it's been that way since I was a kid. Check my resume – elementary, middle, high school, college, and career, always loved it. These days I do blogs mostly.<br/><br/>At some point, I realized that I enjoy writing so much and I wanted to put out so much content, that I figured, 'why not just put it together in a single publication?'<br/><br/>So here we are.",
+    question: "Okay so moving on – can you explain what inspired this book?",
+    answer: "Sure. It was a few things. First off, I've always been a writer, it's been that way since I was a kid. Check my resume: elementary, middle, high school, college, and career, always loved it. These days I do blogs mostly.<br/><br/>At some point, I realized that I enjoy writing so much and I wanted to put out so much content, that I figured, 'why not just put it together in a single publication?'<br/><br/>So here we are.",
   },
   {
     question: "What's was your writing process like?",
@@ -49,6 +49,18 @@ export default [
   },
   {
     question: "What's next?",
-    answer: "I plan to continue writing – I can't say that I another book in the works, yet, but I do have an idea of a couple of problems that I'd love to navigate through writing. We'll see."
+    answer: "I plan to continue writing – I can't say that I another book in the works, yet, but I do have an idea of a couple of problems that I'd love to navigate through writing, but how that manifests is yet to be determined.<br/><br/>I'm in heavy exploration mode right now, which is exciting going into 2020. Every day me and my wife discuss and review potential projects, so we'll see what happens."
+  },
+  {
+    question: "Fantastic. Any last words for your audience?",
+    answer: "God bless y'all, thank you, and always remember to think outside the self."
+  },
+  {
+    question: "And where can people contact you?",
+    answer: "My contact page."
+  },
+  {
+    question: "Oh right – perfect. Well thank you, Randy, for this Q&A. This was fun.",
+    answer: "Have a good day. Easy."
   }
 ]
