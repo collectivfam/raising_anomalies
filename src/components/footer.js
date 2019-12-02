@@ -27,6 +27,7 @@ export default ({ children }) => {
   const FooterCont = styled.div`
     background: #eaeaea;
     font-size: .75rem;
+    min-height: 4rem;
     
     footer {
       max-width: 1080px;

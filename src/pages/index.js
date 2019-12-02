@@ -14,7 +14,7 @@ export default ({ data }) => {
         <div className="content">
           <h1 className="main-body-title">raising<span className="main-body-title-accent">anomalies</span></h1>
           <h2 className="main-body-subtitle">
-          Stories on overcoming failure, internal growth, and creating a unique family culture.
+          A collection of stories on overcoming failure, internal growth, and creating a unique family culture.
           </h2>
             <a href="/updates" className="hero-cta">View updates</a>
         </div>

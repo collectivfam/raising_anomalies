@@ -63,7 +63,6 @@ body {
 }
 
 .nav-link {
-  // font-weight: $heavyWeight;
   list-style: none;
   display: inline;
 
@@ -100,32 +99,18 @@ body {
   position: relative;
   text-transform: lowercase;
 
-  // &::after {
-  //   content: "";
-  //   display: block;
-  //   height: 3px;
-  //   background-color: #fff;
-  //   position: absolute;
-  //   width: 100%;
-  //   left: 0;
-  //   right: 0;
-  //   bottom: 0;
-  //   -webkit-transition: $transMed;
-  //   transition: $transMed;
-  // }
-
   &:hover {
     cursor: pointer;
-
-    // &::after {
-    //   width: 0;
-    //   left: 100%;
-    // }
   }
 }
 
 a {
   color: #5900ce;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 strong {

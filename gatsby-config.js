@@ -10,7 +10,7 @@ module.exports = {
     title: `Raising Anomalies`,
     titleTemplate: `%s | Designing your own family culture`,
     siteUrl: `https://raisinganomalies.com`,
-    description: `Stories on overcoming failure, internal growth, and creating a unique family culture`,
+    description: `A collection of stories on overcoming failure, internal growth, and creating a unique family culture`,
     author: `Randy Tolentino`,
     twitterUsername: `@makertolentino`,
     twitterURL: `https://twitter.com/`,

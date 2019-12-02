@@ -12,23 +12,23 @@ export default [
     answer: "Absolutely."
   },
   {
-    question: "So do you \"write code\" as they say?",
-    answer: "What the... yes."
+    question: "Oh so you \"write code\", as they say?",
+    answer: "I do."
   },
   {
-    question: "What do you do with that code?",
-    answer: "Build apps, artifacts, side-projects. I mean, I built this site."
+    question: "What sorta things do you make?",
+    answer: "Apps, sites, side-projects. I built this site."
   },
   {
-    question: "Did you write these questions as well?",
+    question: "And you write these questions as well?",
     answer: "Facts."
   },
   {
     question: "How?",
-    answer: "Bro, I exported an array of objects, each containing a question and answer property with strings as values for both. I wrote the questions and these answers. Then import that module into the view, iterated over the data and rendered a list item with nested spans, dangerously set HTML for each string. Something like that."
+    answer: "Exported an array of objects, each containing a question and answer property with strings as values for both. I wrote the questions and these answers. Then import that module into the view, iterated over the data and rendered a list item with nested spans, dangerously set HTML for each string. Something like that."
   },
   {
-    question: "Okay, I believe you.",
+    question: "Sounds pretty basic.",
     answer: "Thank you, 🙏"
   },
   {
@@ -49,7 +49,7 @@ export default [
   },
   {
     question: "What's next?",
-    answer: "I plan to continue writing – I can't say that I another book in the works, yet, but I do have an idea of a couple of problems that I'd love to navigate through writing, but how that manifests is yet to be determined.<br/><br/>I'm in heavy exploration mode right now, which is exciting going into 2020. Every day me and my wife discuss and review potential projects, so we'll see what happens."
+    answer: "I plan to continue writing – I can't say that I have another book in the works, yet, but I do have an idea of a couple of problem spaces that I'd love to navigate through; how that manifests is yet to be determined.<br/><br/>I'm in heavy exploration mode right now, which is exciting going into 2020. Every day me and my wife discuss and review potential projects, so we'll see what happens."
   },
   {
     question: "Fantastic. Any last words for your audience?",
@@ -57,10 +57,10 @@ export default [
   },
   {
     question: "And where can people contact you?",
-    answer: "My contact page."
+    answer: "My <a href='/contact'>contact</a> page."
   },
   {
-    question: "Oh right – perfect. Well thank you, Randy, for this Q&A. This was fun.",
+    question: "Perfect. Well thank you, Randy, for this Q&A. This was fun.",
     answer: "Have a good day. Easy."
   }
 ]

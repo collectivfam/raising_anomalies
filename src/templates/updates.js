@@ -10,7 +10,7 @@ export default ({ pageContext: { page } }) => (
     <div className="page-standard">
       <h1>updates</h1>
       <section className="page-section">
-        <p className="page-intro">The following log captures the daily progress that I've tracked ever since day one of this project. This page gets updated on a weekly basis (I think... well, I guess it depends on if it's a super-demanding week or not).</p>  
+        <p className="page-intro">The following log captures the daily progress that have been tracked ever since the inception of this book. This page receives weekly updates. You can also catch the latest status by using the hashtag <strong>#raisinganomalies</strong>.</p>  
         <hr className="divider"/>
         
         {updatesData.map((item, i) => (
