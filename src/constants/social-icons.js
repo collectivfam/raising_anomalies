@@ -1,18 +1,13 @@
 import React from "react"
-import { DiGithubBadge } from "react-icons/di"
-import { FaTwitter, FaLinkedin } from "react-icons/fa"
+import { FaTwitter, FaEnvelope } from "react-icons/fa"
 
 export default [
   {
-    icon: <FaLinkedin />,
+    icon: <FaEnvelope />,
     url: "https://www.linkedin.com/in/morgan-baker-developer-inverness",
   },
   {
     icon: <FaTwitter />,
-    url: "https://www.twitter.com",
-  },
-  {
-    icon: <DiGithubBadge />,
-    url: "https://github.com/bagseye",
+    url: "https://www.twitter.com/makertolentino",
   },
 ]

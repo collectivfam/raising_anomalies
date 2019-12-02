@@ -1,0 +1,23 @@
+.social {
+  &-platform {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+    
+    a {
+      text-decoration: none;
+      color: #323232;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+      color: #f84040;
+    }
+  }
+  
+  &-platform-icon {
+    color: #f84040;
+    font-size: 1.25rem;
+    margin-right: .5rem;
+  }
+}
