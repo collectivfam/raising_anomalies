@@ -121,7 +121,7 @@ export default [
   },
   {
     question: "Lol are you serious?",
-    answer: "Yeah! Okay I might have an Amazon Essentials one, but it fits weird. Anyway, shout out to Walmart blank tees. ✊ "
+    answer: "I am!<br/><br/>Well, I might have an Amazon Essentials one, but it fits weird.<br/><br/>Anyway, shout out to Walmart blank tees. ✊ "
   },
   {
     question: "What can your audience expect next from you?",
