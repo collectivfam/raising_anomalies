@@ -58,7 +58,6 @@
     padding: 1rem 1.5rem;
     outline: none;
     border: none;
-    margin: 1rem 0;
     font-size: 1rem;
     border-radius: 1px;
     margin: 3rem 0 2rem 0;
@@ -73,6 +72,12 @@
       &:hover {
         background: #e23a3a;
       }
+
+      @media(max-width: 480px) {
+        margin: 2rem 0 1rem 0;
+        width: 172px;
+        text-align: center;
+      }
     }
 
     &:last-of-type {
@@ -85,6 +90,12 @@
         background: #e23a3a;
         outline: 2px solid #e23a3a;
         color: #fff;
+      }
+
+      @media(max-width: 480px) {
+        margin: 0 0 3rem 0;
+        width: 172px;
+        text-align: center;
       }
     }
   }

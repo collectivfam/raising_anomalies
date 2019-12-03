@@ -5,7 +5,7 @@ export default [
   },
   {
     question: "How would you describe yourself?",
-    answer: "I'm a husband, father, son, brother – the labels go on, but I always identify myself in some familial aspect, at the core. In terms of career, I'm a software developer that cares a lot about eq/ei. Other than that, I love to write, explore hip-hop music in our home studio, design, and generally just make things.",
+    answer: "I'm a husband, father, son, brother – the identifiers go on, but I always identify myself in some familial aspect, at the core. <br/><br/>In terms of career, I'm a software developer that cares a lot about eq/ei. Other than that, I love to write, explore hip-hop music, design, and generally just make things.",
   },
   {
     question: "You're a software developer?",
@@ -17,10 +17,10 @@ export default [
   },
   {
     question: "What sorta things do you make?",
-    answer: "Apps, sites, side-projects. I built this site."
+    answer: "I pretty much make random apps or sites, just side-project stuff. I built this site."
   },
   {
-    question: "And you write these questions as well?",
+    question: "Did you write these questions as well?",
     answer: "Facts."
   },
   {
@@ -33,23 +33,55 @@ export default [
   },
   {
     question: "Okay so moving on – can you explain what inspired this book?",
-    answer: "Sure. It was a few things. First off, I've always been a writer, it's been that way since I was a kid. Check my resume: elementary, middle, high school, college, and career, always loved it. These days I do blogs mostly.<br/><br/>At some point, I realized that I enjoy writing so much and I wanted to put out so much content, that I figured, 'why not just put it together in a single publication?'<br/><br/>So here we are.",
+    answer: "Sure. It was a few things. First off, I've always been a writer, it's been that way since I was a kid. It's something I love to do. Check my resume. From elementary up to college, and even post-uni now into my career, I've always loved it. These days I do blogs, mostly.<br/><br/>At some point, I realized that I enjoy writing so much and I wanted to produce so much content, that I figured, 'why not just put it together in a single publication?'<br/><br/>So here we are.",
+  },
+  {
+    question: "Is this your first published book?",
+    answer: "It is."
+  },
+  {
+    question: "Congratulations!",
+    answer: "I appreciate that, thanks."
+  },
+  {
+    question: "Who would you say this book is for?",
+    answer: "My wife and kids."
+  },
+  {
+    question: "No, I mean – what audience is your book tailored towards? Like, who would benefit the most from reading this?",
+    answer: "Oh, I got you. I'd say these stories are perfect for new or young parents that are beginning to think about how they want to raise their families. I think it's also a great read for couples who find themselves in a tight circumstance and are trying to figure out how to shape their future together.<br/><br/>Cause a lot of the book is about that, right, the struggle to find yourself as a collective unit of a family. That's what this is.<br/><br/>I definitely think it's a good read for young fathers out there. I could also see it being useful for someone trying to pivot their careers – it's everything.<br/><br/>Bottom line, if you know me, pick it up. I'm hoping you find it valuable or entertaining at least."
   },
   {
     question: "What's was your writing process like?",
-    answer: "First off, I spent about a month researching how other authors approached their own works. I have people in my network who were self-published authors, or, in the process of writing their first book. I picked their brains and tried to understand their journeys. I also began to <em>look at</em> books – what I mean by that is, I didn't just read for content, but I began to study other author's styles, organizations, outlines, flow, and so forth.<br/><br/>I brainstormed with my wife pretty much every night; every conversation was productive. I also established an accountability partner very early on. These initial activities helped me to prepare for the journey.<br/><br/>After that, it was just a matter of creating time and tackling one story at a time.",
+    answer: "First off, I spent about a month researching how other authors approached their own works. I have people in my network who were self-published authors, or, in the process of writing their first book. I picked their brains and tried to understand their journeys. I also began to <em>look at</em> books – what I mean by that is, I didn't just read for content, but I began to study other styles or techniques, their organizations, outlines, flow, grids, cover art, and so forth.<br/><br/>I brainstormed with my wife pretty much every night; every conversation was productive and every time we talk, it's an automatic contribution to my writing. Then I established an accountability partner very early on. These initial activities helped me to prepare for the journey.<br/><br/>After that, it was just a matter of creating time and tackling one story at a time.",
   },
   {
     question: "What about the actual writing process? <laughs>",
     answer: "Haha oh yeah! I do most of my writing in early mornings, between the hours of around 1:00 AM and 7:00 AM. This schedule gives me enough time to dive right in, make some edits on the content I last worked on, and get into a flow state."
   },
   {
-    question: "Are there any specific tools that you use?",
+    question: "Wait, did you just say 1 to 7 AM!??",
+    answer: "I did. There's a chapter on that."
+  },
+  {
+    question: "Oh I know, I was just clarifying for the people.",
+    answer: "All good."
+  },
+  {
+    question: "Are there any specific writing tools that you use?",
     answer: "I keep my work in a what I called a 'mini log', which was just a small bulleted list that I tracked in a GitHub wiki. I sent my accountability partner a summary of that log, every Friday.<br/><br/>All my drafts were created and kept in Google Docs, which allowed me to compose, edit, and review from anywhere. GitHub and Google Docs, those are the main tools."
   },
   {
     question: "Why don't you have a larger social media presence?",
-    answer: "Social media networks and platforms scare me. Every day we hear another story about how our data is being used against people, so my fear is that we're becoming desensitized to what's happening. Other than that, my activity is relatively light on social media just for the simple fact I try to protect my cognitive load – I don't like to think about too much."
+    answer: "Social media networks and platforms scare me. Every day we hear another story about how our data is being used against people, so my fear is that we're becoming desensitized to what's happening. Other than that, my activity is relatively light on social media just for the simple fact I try to protect my cognitive load – I try not to think about too much."
+  },
+  {
+    question: "Can you expand on that a little more?",
+    answer: "I've been that way since became a developer. It might be an efficiency thing, where I don't want to overload the mental processors, if that makes sense. You know how when you're running too many apps on your laptop and it starts humming?<br/><br/>The goal is to never have the fan spinning – to me that's life telling you you're doing too much.<br/><br/>You gotta clear that cache sometimes."
+  },
+  {
+    question: "I like that. I'm gonna use that.",
+    answer: "Feel free."
   },
   {
     question: "I have a set fairly random questions that I wanted to ask you, are you okay with that?",
@@ -78,6 +110,10 @@ export default [
   {
     question: "Favorite television series?",
     answer: "Project Bluebook."
+  },
+  {
+    question: "What keeps you up at night?",
+    answer: "I want to leave a healthy legacy for our sons to look back on, that's the main reason why I do all fo this.<br/><br/>When I wake up in the middle of the night, there's always a looming list of things I want to accomplish – topics I want to write about or some solution to a problem that I want to build and share with the world.<br/><br/>All these ideas need that time and attention, so I get up."
   },
   {
     question: "Last question. One thing that most people don't know about you?",

@@ -9,7 +9,7 @@ export default ({ pageContext: { page } }) => (
     <div className="page-standard">
       <h1>author</h1>
       <section className="page-section">
-        <p className="page-intro">In this short Q&A with the author of <strong>raising anomalies</strong>, Randy Tolentino, we find out a little bit about who he is and what inspired him to officially start his career as a writer.</p>
+        <p className="page-intro">In this short Q&A with the author of <strong>raising anomalies</strong>, we find out who he is and what inspired him to officially start his career as a writer.</p>
         <hr className="divider"/>
         
         <ul className="faq-list">
