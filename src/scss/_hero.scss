@@ -58,17 +58,34 @@
     padding: 1rem 1.5rem;
     outline: none;
     border: none;
-    background: #f84040;
-    color: #fff;
     margin: 1rem 0;
     font-size: 1rem;
     border-radius: 1px;
     margin: 3rem 0 2rem 0;
     display: inline-block;
     text-decoration: none;
-    
-    &:hover {
-      background: #e23a3a;
+
+    &:first-of-type {
+      margin-right: 1rem;
+      background: #f84040;
+      color: #fff;
+      
+      &:hover {
+        background: #e23a3a;
+      }
+    }
+
+    &:last-of-type {
+      background: transparent;
+      color: #f84040;
+      outline: 2px solid #f84040;
+      outline-offset: -2px;
+
+      &:hover {
+        background: #e23a3a;
+        outline: 2px solid #e23a3a;
+        color: #fff;
+      }
     }
   }
   

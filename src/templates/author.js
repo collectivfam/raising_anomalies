@@ -9,14 +9,14 @@ export default ({ pageContext: { page } }) => (
     <div className="page-standard">
       <h1>author</h1>
       <section className="page-section">
-        <p className="page-intro">To find out a little bit about the author of <strong>raising anomalies</strong> and to hear what motivated him to releasing his book, check out this short Q&A session, conducted by the good people at The Collective Legacy.</p>
+        <p className="page-intro">In this short Q&A with the author of <strong>raising anomalies</strong>, Randy Tolentino, we find out a little bit about who he is and what inspired him to officially start his career as a writer.</p>
         <hr className="divider"/>
         
         <ul className="faq-list">
           {faqData.map((item, i) => (
             <li className="faq-list-item" key={i}
             >
-              <span className="faq-list-item-q">{item.question}</span>
+              <span className="faq-list-item-q">Q: {item.question}</span>
               <span className="faq-list-item-a" dangerouslySetInnerHTML={{ __html: item.answer }} />
             </li>  
           )

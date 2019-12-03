@@ -16,10 +16,11 @@ export default ({ data }) => {
           <h2 className="main-body-subtitle">
           A collection of stories on overcoming failure, internal growth, and creating a unique family culture.
           </h2>
-            <a href="/updates" className="hero-cta">View updates</a>
+            <a href="/author" className="hero-cta">About the author</a>
+            <a href="/updates" className="hero-cta">Latest updates</a>
         </div>
         <div className="hero-img-container">
-          {/* <img src={bookImg} className="hero-img"/> */}
+          <img src={bookImg} className="hero-img"/>
         </div>
         <div className="hero-bg">
           <img src={backgroundImg}/>

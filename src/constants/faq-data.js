@@ -5,7 +5,7 @@ export default [
   },
   {
     question: "How would you describe yourself?",
-    answer: "I'm a husband, father, son, brother – the labels go on, but I always identify myself in some familial aspect, at the core. In terms of career, I'm a software developer that cares a lot about eq/ei. Other than that, I love to write, explore hip hop music in our home studio, design, and generally just make things.",
+    answer: "I'm a husband, father, son, brother – the labels go on, but I always identify myself in some familial aspect, at the core. In terms of career, I'm a software developer that cares a lot about eq/ei. Other than that, I love to write, explore hip-hop music in our home studio, design, and generally just make things.",
   },
   {
     question: "You're a software developer?",
@@ -50,6 +50,42 @@ export default [
   {
     question: "Why don't you have a larger social media presence?",
     answer: "Social media networks and platforms scare me. Every day we hear another story about how our data is being used against people, so my fear is that we're becoming desensitized to what's happening. Other than that, my activity is relatively light on social media just for the simple fact I try to protect my cognitive load – I don't like to think about too much."
+  },
+  {
+    question: "I have a set fairly random questions that I wanted to ask you, are you okay with that?",
+    answer: "Definitely."
+  },
+  {
+    question: "Top 5 favorite hip-hop artists of all time",
+    answer: "I love it. You do know that this is always a controversial topic, right?<br/><br/> Okay, in no particular order: Aesop Rock, Mos Def, Andre 3000, Brother Ali... the fifth is always difficult. I'd say Lauryn Hill."
+  },
+  {
+    question: "Best fast food chain?",
+    answer: "Taco Bell, no question."
+  },
+  {
+    question: "In my spare time, I like to...",
+    answer: "Go on \"family dates\" with my wife and kids, hang out with the Husky, make art... watch battle rap. And take naps."
+  },
+  {
+    question: "Your spirit animal is...",
+    answer: "A wolf."
+  },
+  {
+    question: "Favorite movie?",
+    answer: "I don't really watch movies. Maybe Fire in the Sky, that Travis Walton alien abduction story."
+  },
+  {
+    question: "Favorite television series?",
+    answer: "Project Bluebook."
+  },
+  {
+    question: "Last question. One thing that most people don't know about you?",
+    answer: "All my t-shirts are from Walmart."
+  },
+  {
+    question: "Lol are you serious?",
+    answer: "Yeah! Okay I might have an Amazon Essentials one, but it fits weird. Anyway, shout out to Walmart blank tees. ✊ "
   },
   {
     question: "What can your audience expect next from you?",
