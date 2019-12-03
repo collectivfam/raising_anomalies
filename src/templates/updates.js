@@ -10,7 +10,7 @@ export default ({ pageContext: { page } }) => (
     <div className="page-standard">
       <h1>updates</h1>
       <section className="page-section">
-        <p className="page-intro">The following log captures the daily progress that have been tracked ever since the inception of this book. This page receives weekly updates. You can also catch the latest status by using the hashtag <strong>#raisinganomalies</strong>.</p>  
+        <p className="page-intro">The following list captures the daily progress updates that have been tracked ever since the inception of this book. You can also catch the latest status by using the hashtag <strong>#raisinganomalies</strong>.</p>  
         <hr className="divider"/>
         
         {updatesData.map((item, i) => (
