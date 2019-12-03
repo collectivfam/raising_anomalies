@@ -113,7 +113,7 @@ export default [
   },
   {
     question: "What keeps you up at night?",
-    answer: "I want to leave a healthy legacy for our sons to look back on, that's the main reason why I do all fo this.<br/><br/>When I wake up in the middle of the night, there's always a looming list of things I want to accomplish – topics I want to write about or some solution to a problem that I want to build and share with the world.<br/><br/>All these ideas need that time and attention, so I get up."
+    answer: "I want to leave a healthy legacy for our sons to look back on, that's the main reason why I do all of this.<br/><br/>When I wake up in the middle of the night, there's always a looming list of things I want to accomplish – topics I want to write about or some solution to a problem that I want to build and share with the world.<br/><br/>All these ideas need that time and attention, so I get up."
   },
   {
     question: "Last question. One thing that most people don't know about you?",
