@@ -89,7 +89,7 @@ export default [
   },
   {
     question: "Top 5 favorite hip-hop artists of all time",
-    answer: "I love it. You do know that this is always a controversial topic, right?<br/><br/> Okay, in no particular order: Aesop Rock, Mos Def, Andre 3000, Brother Ali... the fifth is always difficult. I'd say Lauryn Hill."
+    answer: "I love it. You do know that this is always a controversial topic, right?<br/><br/> Okay, in no particular order: Aesop Rock, Mos Def, Andre 3000, Brother Ali... the fifth is always difficult. Could be Genelec, an independent emcee from years ago. Maybe Oddisee. Even Eminem could be in that list."
   },
   {
     question: "Best fast food chain?",
